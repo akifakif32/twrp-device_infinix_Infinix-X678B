@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X678B
+DEVICE_PATH := device/infinix/X678B
 
 # Inherit from mt6789-common
 include device/transsion/mt6789-common/BoardConfigCommon.mk
@@ -17,4 +17,4 @@ TARGET_INIT_VENDOR_LIB := libinit_Infinix-X678B
 TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X678B
 
 # TWRP Configs
-TW_DEVICE_VERSION := X678B_by_rama982
+TW_DEVICE_VERSION := rama982-Turkishpatriot
